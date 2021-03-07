@@ -1,6 +1,14 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
+<nav>
+	<ul>
+		{% for item in navigation.items %}
+		<li><a href="{{ item.url }}">{{ item.text }}</a></li>
+		{% endfor %}
+	</ul>
+</nav>
+
 <article>
 	{{ content | safe }}
 </article>
