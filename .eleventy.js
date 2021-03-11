@@ -2,7 +2,7 @@ const dayjs = require('dayjs');
 
 module.exports = config => {
 	config.addPassthroughCopy('./src/images/');
-//	config.addPassthroughCopy('./src/cv.html');
+	config.addPassthroughCopy('./src/style.css');
 
 	config.addCollection('posts', collection => {
 		return collection
