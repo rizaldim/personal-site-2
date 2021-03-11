@@ -1,6 +1,8 @@
 const dayjs = require('dayjs');
 
 module.exports = config => {
+	config.setUseGitIgnore(false);
+
 	config.addPassthroughCopy('./src/images/');
 	config.addPassthroughCopy('./src/style/');
 
