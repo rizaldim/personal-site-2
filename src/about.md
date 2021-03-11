@@ -24,3 +24,5 @@ to become one.
 I am from Padang, Indonesia but now live in Jakarta with my wife and her calico cat.
 Until now I still don't know if the cat likes me or hates me.
 
+If you want to hire me or work with me or anything, feel free to check
+<a href="/cv/">my cv</a>.  It's still in constant update as we speak.
