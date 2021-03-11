@@ -1,3 +1,9 @@
+/*
+ * Copied from Andy Bell's reset. Modified a bit. Thanks, Andy!
+ *
+ * https://piccalil.li/blog/a-modern-css-reset
+ */
+
 *,
 *::before,
 *::after {
@@ -55,31 +61,3 @@ select {
   }
 }
 
-:root {
-	font-size: calc(1rem + 0.3vw);
-	--ratio: 1.5;
-
-	--s0: 1rem;
-	
-	--s1: calc(var(--ratio) * var(--s0));
-	--s2: calc(var(--ratio) * var(--s1));
-	--s3: calc(var(--ratio) * var(--s2));
-
-	--s-1: calc(var(--s0) / var(--ratio));
-}
-
-body {
-	padding: 1rem;
-}
-
-h3 { font-size:  var(--s1); }
-h2 { font-size:  var(--s2); }
-h1 { font-size:  var(--s3); }
-
-* + p {
-	margin-top: 1.2em;
-}
-
-h1, h2, h3 {
-	margin-bottom: .5em;
-}
